@@ -397,9 +397,10 @@
 <nav>
   <a href="#" class="logo">Old<span>OS</span></a>
   <ul>
-    <li><a href="#features">Funkcje</a></li>
+    <li><a href="#why">Dlaczego?</a></li>
     <li><a href="#specs">Specyfikacja</a></li>
-    <li><a href="#install">Instalacja</a></li>
+    <li><a href="#roadmap">Roadmapa</a></li>
+    <li><a href="#changelog">Changelog</a></li>
     <li><a href="#download">Pobierz</a></li>
   </ul>
 </nav>
@@ -423,41 +424,41 @@
   </div>
 </section>
 
-<!-- FEATURES -->
-<section id="features">
+<!-- WHY OLDOS -->
+<section id="why">
   <div class="section-label">Dlaczego OldOS?</div>
-  <h2 class="section-title">Zbudowany dla wydajności</h2>
-  <p class="section-sub">Każdy komponent jest dobrany tak, żeby wycisnąć maksimum ze starszego sprzętu.</p>
+  <h2 class="section-title">Zbudowany dla graczy<br>ze starym sprzętem</h2>
+  <p class="section-sub">OldOS to lekka dystrybucja Linuxa oparta na Debianie 13, stworzona specjalnie dla graczy z komputerami sprzed lat. Gotowa do grania od razu po instalacji — bez konfiguracji, bez kombinowania.</p>
   <div class="features-grid reveal">
     <div class="feature-card">
-      <div class="feature-icon">⚡</div>
-      <h3>Lekkie środowisko</h3>
-      <p>Openbox zużywa tylko ~50 MB RAM. Żadnych zbędnych efektów, całe zasoby idą do gier.</p>
+      <div class="feature-icon">🎮</div>
+      <h3>Gaming out-of-the-box</h3>
+      <p>Wine i RetroArch preinstalowane. Uruchamiaj gry Windows i klasyki bez żadnej dodatkowej konfiguracji.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon">🎮</div>
-      <h3>Gotowy do grania</h3>
-      <p>Wine i RetroArch preinstalowane. Uruchamiaj gry Windows i klasyki bez konfiguracji.</p>
+      <div class="feature-icon">⚡</div>
+      <h3>Ekstremalnie lekki</h3>
+      <p>Openbox zużywa tylko ~50 MB RAM. Więcej zasobów dla gier, zero zbędnych procesów w tle.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🙋</div>
+      <h3>Prosty dla każdego</h3>
+      <p>Nie musisz znać Linuxa żeby grać. OldOS jest zaprojektowany tak, żeby działał od razu.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💻</div>
+      <h3>Stary sprzęt = OK</h3>
+      <p>Intel Core gen. 4, 2–4 GB RAM — tyle wystarczy. Nie wyrzucaj starego laptopa, daj mu drugie życie.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">🐧</div>
-      <h3>Debian Testing</h3>
-      <p>Solidna baza z aktualnym oprogramowaniem i szerokim wsparciem sterowników.</p>
+      <h3>Debian 13 Testing</h3>
+      <p>Solidna, sprawdzona baza z nowoczesnymi sterownikami i szerokim wsparciem sprzętowym.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon">💾</div>
-      <h3>Minimalne wymagania</h3>
-      <p>Działa na maszynach z 2–4 GB RAM i procesorami Intel Core 4. generacji.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🌐</div>
-      <h3>NetworkManager</h3>
-      <p>Prosta konfiguracja sieci Wi-Fi i Ethernet bez kombinowania w konsoli.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🖥️</div>
-      <h3>Pełny pulpit</h3>
-      <p>lxpanel, PCManFM i kompletne środowisko gotowe do codziennego użytku.</p>
+      <div class="feature-icon">🆓</div>
+      <h3>Całkowicie darmowy</h3>
+      <p>Open source, licencja GPL-2.0. Pobierz, używaj, modyfikuj — bez żadnych opłat.</p>
     </div>
   </div>
 </section>
@@ -506,14 +507,117 @@
 </section>
 
 <!-- SCREENSHOTS -->
-<section id="screenshots">
+<section id="screenshots" style="background: var(--surface);">
   <div class="section-label">Galeria</div>
   <h2 class="section-title">Jak wygląda OldOS?</h2>
-  <p class="section-sub">Screenshots zostaną dodane po finalnym wydaniu systemu.</p>
+  <p class="section-sub">Screenshots zostaną dodane gdy system będzie gotowy.</p>
   <div class="screenshots-grid reveal">
     <div class="screenshot-placeholder"><span class="ss-icon">🖥️</span><span>Pulpit Openbox — wkrótce</span></div>
     <div class="screenshot-placeholder"><span class="ss-icon">🎮</span><span>RetroArch w akcji — wkrótce</span></div>
     <div class="screenshot-placeholder"><span class="ss-icon">📁</span><span>PCManFM — wkrótce</span></div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap">
+  <div class="section-label">Plan rozwoju</div>
+  <h2 class="section-title">Roadmapa</h2>
+  <p class="section-sub">Gdzie jesteśmy i dokąd zmierzamy.</p>
+  <div class="reveal" style="max-width: 680px;">
+
+    <div style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+      <div style="flex-shrink:0; width:80px; text-align:center;">
+        <div style="font-family:'DM Mono',monospace; font-size:0.8rem; color:var(--green); background:rgba(74,222,128,0.08); border:1px solid rgba(74,222,128,0.2); border-radius:100px; padding:4px 10px;">v0.1</div>
+      </div>
+      <div style="border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; flex:1;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="font-size:0.95rem;">Pierwsze ISO</strong>
+          <span style="font-size:0.75rem; color:var(--green); font-family:'DM Mono',monospace;">✓ gotowe</span>
+        </div>
+        <p style="font-size:0.85rem; color:var(--muted);">Działające ISO oparte na Debianie, system bootuje, zmieniona nazwa na OldOS. Rozmiar ~1.1 GB.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+      <div style="flex-shrink:0; width:80px; text-align:center;">
+        <div style="font-family:'DM Mono',monospace; font-size:0.8rem; color:var(--accent); background:rgba(91,156,246,0.08); border:1px solid rgba(91,156,246,0.2); border-radius:100px; padding:4px 10px;">v0.2</div>
+      </div>
+      <div style="border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; flex:1;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="font-size:0.95rem;">Pełny pulpit</strong>
+          <span style="font-size:0.75rem; color:var(--accent); font-family:'DM Mono',monospace;">⚙ w trakcie</span>
+        </div>
+        <p style="font-size:0.85rem; color:var(--muted);">Openbox z działającą grafiką, lxpanel, PCManFM, naprawiony czarny ekran. Pierwsze screenshoty.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+      <div style="flex-shrink:0; width:80px; text-align:center;">
+        <div style="font-family:'DM Mono',monospace; font-size:0.8rem; color:var(--muted); background:rgba(107,107,128,0.08); border:1px solid rgba(107,107,128,0.2); border-radius:100px; padding:4px 10px;">v0.5</div>
+      </div>
+      <div style="border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; flex:1;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="font-size:0.95rem;">Gaming ready</strong>
+          <span style="font-size:0.75rem; color:var(--muted); font-family:'DM Mono',monospace;">⏳ planowane</span>
+        </div>
+        <p style="font-size:0.85rem; color:var(--muted);">Wine i RetroArch preinstalowane, obsługa gamepadów, własne logo i motyw wizualny.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:20px; align-items:flex-start;">
+      <div style="flex-shrink:0; width:80px; text-align:center;">
+        <div style="font-family:'DM Mono',monospace; font-size:0.8rem; color:var(--muted); background:rgba(107,107,128,0.08); border:1px solid rgba(107,107,128,0.2); border-radius:100px; padding:4px 10px;">v1.0</div>
+      </div>
+      <div style="border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; flex:1;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <strong style="font-size:0.95rem;">Publiczne wydanie</strong>
+          <span style="font-size:0.75rem; color:var(--muted); font-family:'DM Mono',monospace;">⏳ planowane</span>
+        </div>
+        <p style="font-size:0.85rem; color:var(--muted);">Publiczne ISO na SourceForge i GitHub Releases. Instalator, dokumentacja, strona gotowa.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CHANGELOG -->
+<section id="changelog" style="background: var(--surface);">
+  <div class="section-label">Historia zmian</div>
+  <h2 class="section-title">Changelog</h2>
+  <p class="section-sub">Co zostało zrobione do tej pory.</p>
+  <div class="reveal" style="max-width:680px;">
+
+    <div style="border:1px solid var(--border); border-radius:var(--radius); overflow:hidden;">
+      <div style="padding:18px 24px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-family:'DM Mono',monospace; font-size:0.85rem; color:var(--green);">v0.1.0</span>
+        <span style="font-size:0.8rem; color:var(--muted);">2026</span>
+      </div>
+      <div style="padding:20px 24px;">
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; gap:12px; font-size:0.88rem;">
+            <span style="color:var(--green); flex-shrink:0;">+</span>
+            <span style="color:var(--muted);">Pierwsze działające ISO (~1.1 GB) oparte na Debian Testing</span>
+          </div>
+          <div style="display:flex; gap:12px; font-size:0.88rem;">
+            <span style="color:var(--green); flex-shrink:0;">+</span>
+            <span style="color:var(--muted);">System bootuje i działa na VirtualBox</span>
+          </div>
+          <div style="display:flex; gap:12px; font-size:0.88rem;">
+            <span style="color:var(--green); flex-shrink:0;">+</span>
+            <span style="color:var(--muted);">Zmieniona nazwa systemu z Debian na OldOS</span>
+          </div>
+          <div style="display:flex; gap:12px; font-size:0.88rem;">
+            <span style="color:var(--green); flex-shrink:0;">+</span>
+            <span style="color:var(--muted);">Openbox jako środowisko graficzne</span>
+          </div>
+          <div style="display:flex; gap:12px; font-size:0.88rem;">
+            <span style="color:var(--accent); flex-shrink:0;">~</span>
+            <span style="color:var(--muted);">Znany problem: czarny ekran w Openbox (w naprawie)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
