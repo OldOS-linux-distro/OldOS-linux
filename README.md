@@ -23,7 +23,7 @@ OldOS to darmowy system operacyjny oparty na Linuxie, stworzony z myślą o star
 
 | Komponent | Wymaganie |
 |-----------|-----------|
-| Procesor | Intel lub AMD (2010–2020) |
+| Procesor | Intel lub AMD (2015–2020 lub nowsze) |
 | RAM | Minimum 2 GB |
 | Dysk | 15 GB wolnego miejsca |
 | System | HDD lub SSD |
