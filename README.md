@@ -5,7 +5,7 @@
 **Lekki system Linux stworzony do grania na starym sprzęcie**
 
 ![Version](https://img.shields.io/badge/wersja-v0.1--beta-blue)
-![Debian](https://img.shields.io/badge/pisany_za_pomocą_linux_from_scratch-red)
+![Debian](https://img.shields.io/badge/oparty_na_Debian_12_stable-red)
 ![License](https://img.shields.io/badge/licencja-GPL--2.0-green)
 ![Status](https://img.shields.io/badge/status-w%20trakcie%20tworzenia-orange)
 
