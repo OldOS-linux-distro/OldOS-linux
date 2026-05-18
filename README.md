@@ -5,7 +5,7 @@
 **Lightweight linux distro made for gaming**
 
 ![Version](https://img.shields.io/badge/version-v0.1--beta-blue)
-![Debian](https://img.shields.io/badge/based_on_Debian_13_testing-red)
+![Debian](https://img.shields.io/badge/based_on_Debian_13_stable-red)
 ![License](https://img.shields.io/badge/-GPL--2.0_licence-green)
 ![Status](https://img.shields.io/badge/progress-%20working%20on_first_version-orange)
 
@@ -39,7 +39,7 @@ Give your hardware a second life and enjoy gaming without buying a new PC.
 - **File Manager** — PCManFM (or KDE alternatives in Plasma edition)
 - **Gaming Support** — Wine + RetroArch preinstalled
 - **Networking** — NetworkManager
-- **Base System** — Inspired by Linux From Scratch (LFS)
+- **Base System** — Based on Debian 13 stable
 
 ## Editions
 
