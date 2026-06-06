@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/-GPL--2.0_licence-green)
 ![Status](https://img.shields.io/badge/progress-%20working%20on_first_version-orange)
 
-[Web page](https://oldos-linux-distro.github.io/OldOS-linux-distro/) · [Download_ISO](#download) · [Contact](mailto:oldoscontactcenter@gmail.com)
+[Web page](https://oldos-linux-distro.github.io/OldOS-linux/) · [Download_ISO](#download) · [Contact](mailto:oldoscontactcenter@gmail.com)
 
 </div>
 
@@ -60,7 +60,7 @@ Follow the repository to stay updated on upcoming releases.
 ## Contact
 
 - Email: oldoscontactcenter@gmail.com  
-- Website: https://oldos-linux-distro.github.io/OldOS-linux-distro/
+- Website: https://oldos-linux-distro.github.io/OldOS-linux/
 
 ## License
 
